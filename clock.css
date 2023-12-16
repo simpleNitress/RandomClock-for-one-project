@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+.widget-body{
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(46px);
+    height: 720px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-bar{
+    position: absolute;
+    top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 222px;
+    height: fit-content;
+}
+.icon-a,.icon-b,.icon-c{
+    height: fit-content;
+    width: fit-content;
+}
+img.head-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.name{
+    position: absolute;
+    top: 115px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container > .body-container > .txt{
+    font-size: 96px;
+    font-weight: 400;
+    margin-bottom: -12px;
+}
+
+.container > .body-container > .outputDate{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    gap: 70px;
+}
+
+.navigation > img{
+    width: 20px;
+}
+
+.navigation > .dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.navigation > .dots > .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}

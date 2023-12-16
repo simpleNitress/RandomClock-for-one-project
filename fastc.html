@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./clock.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body onload="startTime()">
+        <div class="widget-body">
+            <div class="head-bar">
+              <div class="icon-a">
+                <img class="head-icon" src="./ui icons/wifi.svg">
+              </div>
+              <div class="icon-b">
+                <img class="head-icon" src="./ui icons/signal.svg">
+              </div>
+              <div class="icon-c">
+                <img class="head-icon" src="./ui icons/bluetooth.svg">
+              </div>
+            </div>
+            <div class="name">
+              <p class="cit">Fast Control</p>
+            </div>
+            <div class="container">
+                <div class="top-container"></div>
+                <div class="body-container">
+                    <p class="txt"></p>
+                    <p class="outputDate"></p>
+                </div>
+            </div>
+            <div class="navigation">
+              <img src="./ui icons/arrowL.svg">
+              <div class="dots">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+              </div>
+              <img src="./ui icons/arrowR.svg">
+          </div>
+        </div>
+        <style>
+          .navigation > .dots > .dot:nth-child(2),
+          .navigation > .dots > .dot:nth-child(1){
+              background-color: rgba(255, 255, 255, .45);
+          }
+        </style>
+    </body>
+</html>
