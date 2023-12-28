@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="./clock.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -44,5 +43,30 @@
               outputElement.innerText = formattedDate;
           }
         </script>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                color: aliceblue;
+            }
+            
+            body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .txt{
+                font-size: 94px;
+                font-weight: 400;
+            }
+            .outputDate{
+                font-size: 24px;
+                font-weight: 400;
+            }
+        </style>
     </body>
 </html>
